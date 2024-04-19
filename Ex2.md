@@ -1,6 +1,6 @@
 # Ex2: Classes & Objects
 
-I) Implement a class named PongGame with public attributes Player1, Player2, and private attributes BallSpeed, BallDirection. Create an object called GameSession of the PongGame class and try to access all attributes.
+**I)** Implement a class named PongGame with public attributes Player1, Player2, and private attributes BallSpeed, BallDirection. Create an object called GameSession of the PongGame class and try to access all attributes.
 
 Rules of the Pong Game:
 
@@ -13,19 +13,19 @@ Rules of the Pong Game:
 
 Your task is to implement the PongGame class with the given attributes and provide a main method to demonstrate accessing those attributes within an object of the class.
 
-II) 	Create the class Student with the attributes StudentId, FirstName, LastName, Semester and Matriculation Number, Make sure to add validation for appropriate values.
+**II)** 	Create the class Student with the attributes StudentId, FirstName, LastName, Semester and Matriculation Number, Make sure to add validation for appropriate values.
 
-III)	Create at least 2 different constructors, 1 default constructor with no parameters, 1 constructor with all the parameters.
+**III)**	Create at least 2 different constructors, 1 default constructor with no parameters, 1 constructor with all the parameters.
 
-IV)	Implement methods to access and modify student attributes like semester.
+**IV)**	Implement methods to access and modify student attributes like semester.
 
-V)	Add the possibility to add a new student to the Student List and remove a student's name based on their StudentId.
+**V)**	Add the possibility to add a new student to the Student List and remove a student's name based on their StudentId.
 
-VI)	Implement a counter for the StudentId, such as adding a new instance of Student will automatically set their id by increment.
+**VI)**	Implement a counter for the StudentId, such as adding a new instance of Student will automatically set their id by increment.
 
-VII)	Add the possibility to search for a student by their name and returns the first match.
+**VII)**	Add the possibility to search for a student by their name and returns the first match.
 
-VIII)	Write a Java program that simulates a student management system to display the details of a student. However, there might be cases where the student object is null. Your task is to modify the main method to handle the case where the student object is null. Ensure that the program gracefully handles this null reference and prints an appropriate message instead of crashing. Your solution should:
+**VIII)**	Write a Java program that simulates a student management system to display the details of a student. However, there might be cases where the student object is null. Your task is to modify the main method to handle the case where the student object is null. Ensure that the program gracefully handles this null reference and prints an appropriate message instead of crashing. Your solution should:
 
 *	Check if the student object is null.
 *	If the student object is not null, print the student details as usual.
