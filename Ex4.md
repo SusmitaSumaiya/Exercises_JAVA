@@ -1,0 +1,10 @@
+# Ex4: Abstract Classes & Interfaces
+**I)**	Why it's better to design Comparable as an interface instead of abstract class? You are tasked with creating a small application that manages a collection of books in a library. Each book has a title, author, and publication year. Your application should allow adding new books to the collection and displaying the list of books sorted by their publication year. Define a Book class that includes the following properties: “String title”, “String author”, “int publicationYear” Implement the Comparable interface in your Book class to compare books based on their publication year. Ensure your compareTo method correctly handles sorting books in ascending order by their publication year. Write a method in your main class that adds several books to an ArrayList and then uses the Collections.sort() method to sort them by “publication” year. Finally, the method should print the sorted list of books, showing their title, author, and publication year.
+
+**II)**	The Vehicles: Car, Bicycle, Boat, Helicopter and Plane have common attributes: type and manufacturer. In addition Car has cylinderCapacity and noOfCylinders as attributes. Plane has additional attribute numOfEngines and maxFlightHeight. Build the UML class diagram of descripted model and transfer it to Java.
+
+**III)**	Create two interfaces called "VehicleIdentification" and "AircraftIdentification". Two classes called "CarId" which implements VehicleIdentification and "PlaneId" which implements AircraftIdentification. Use the instanceof operator to check if the object’s class implements the specific interface mentioned. Show the output as True or False.
+
+**IV)**	What is the benefit of using an abstract class in Java? Create an abstract class Animal with an abstract method makeSound(). Create three classes Dog, Cat, and Lion that extend the Animal class and provide their own implementation of the makeSound() method.
+
+**V)**	Create some different Cars, Bikes and Planes in the Array of Objects and give them out.
